@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "402d1bcab378f178d931989cc5961e1b"
+build_time: [1550431031, 262033000]
+inputs:
+  "/Users/tjonata/workspace/sample-ios/prime/prime/ViewController.swift": [9223372036, 854775807]
+  "/Users/tjonata/workspace/sample-ios/prime/prime/Util.swift": [9223372036, 854775807]
+  "/Users/tjonata/workspace/sample-ios/prime/prime/AppDelegate.swift": [9223372036, 854775807]
