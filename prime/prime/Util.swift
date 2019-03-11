@@ -8,15 +8,13 @@
 
 class Util {
     static func isPrime( number: Int ) -> Bool {
-        if number <= 0 {
-            return false
-        }
-        if number == 1 || number == 2 {
+        if number > 0 {
+            for index in 3..<number where number % index == 0 {
+                return false
+            }
             return true
-        }
-        for index in 3..<number where number % index == 0 {
+        } else {
             return false
         }
-        return true
     }
 }
