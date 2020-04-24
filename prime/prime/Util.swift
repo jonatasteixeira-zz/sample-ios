@@ -9,12 +9,17 @@
 class Util {
     static func isPrime( number: Int ) -> Bool {
         if number > 0 {
-            for index in 3..<number where number % index == 0 {
-                return false
+            if number < 3 {
+                return true
+            } else {
+                for index in 3..<number {
+                    if (number % index == 0) {
+                        return false
+                    }
+                }
+                return true
             }
-            return true
-        } else {
-            return false
         }
+        return false
     }
 }
